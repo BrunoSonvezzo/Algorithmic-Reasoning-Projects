@@ -1,0 +1,75 @@
+.container
+    
+    {
+    display: flex; 
+    }
+    
+.block
+    
+    {
+    width: 600% ;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: max-content;
+    }
+
+body 
+    
+    {
+    margin: 0;
+    background-image: url(../images/fundo.jpg);
+    background-size: cover;
+    background: auto;
+    }
+    
+.register 
+
+    {
+    text-align:center;
+    color: blueviolet;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+.button
+    
+    {
+    
+    text-align:center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-emphasis: rgb(255, 255, 255);
+    width: 22vw;
+    height: 157px;
+    margin-bottom: 10px;
+    background-color:blueviolet
+
+    }
+        
+    
+#buttons
+    
+    {
+    text-align: center 
+    }
+
+
+#shadow_block 
+    {
+    margin-top: 20px;
+    box-shadow:0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 2%;
+    border-radius: 20px;
+    width: 300px;
+    margin: auto;
+    }
+
+
+
